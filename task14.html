@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        console.log("....task 1....")
+function Num(n) {
+  for (let i = 1; i <= n; i++) {
+    console.log(i);
+  }
+}
+
+Num(5); 
+function sumNum(n) {
+  let sum = 0;
+  let i = 1;
+  while (i <= n) {
+    sum += i;
+    i++;
+  }
+  return sum;
+}
+
+console.log(sumNum(5)); 
+function factorial(n) {
+  let result = 1;
+  for (let i = 2; i <= n; i++) {
+    result *= i;
+  }
+  return result;
+}
+
+console.log(factorial(5));
+function multipli(num) {
+  for (let i = 1; i <= 10; i++) {
+    console.log(`${num} x ${i} = ${num * i}`);
+  }
+}
+
+multipli(3);
+function Evens(arr) {
+  for (const num of arr) {
+    if (num % 2 === 0) {
+      console.log(num);
+    }
+  }
+}
+
+Evens([1, 2, 3, 4, 5, 6]);
+
+console.log("....task 2....")
+
+const NumArrow = (n) => {
+  for (let i = 1; i <= n; i++) {
+    console.log(i);
+  }
+};
+
+NumArrow(5);
+const sumOfNumArrow = (n) => {
+  let sum = 0;
+  let i = 1;
+  while (i <= n) {
+    sum += i;
+    i++;
+  }
+  return sum;
+};
+
+console.log(sumOfNumArrow(5));
+const factorialArrow = (n) => {
+  let result = 1;
+  for (let i = 2; i <= n; i++) {
+    result *= i;
+  }
+  return result;
+};
+
+console.log(factorialArrow(5));
+const multipliArrow = (num) => {
+  for (let i = 1; i <= 10; i++) {
+    console.log(`${num} x ${i} = ${num * i}`);
+  }
+};
+
+multipliArrow(3);
+
+const EvensArrow = (arr) => {
+  for (const num of arr) {
+    if (num % 2 === 0) {
+      console.log(num);
+    }
+  }
+};
+
+EvensArrow([1, 2, 3, 4, 5, 6]);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
